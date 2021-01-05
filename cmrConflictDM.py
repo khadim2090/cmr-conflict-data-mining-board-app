@@ -42,7 +42,7 @@ initial_sidebar_state="expanded")
 init_notebook_mode(connected=True)
 cf.go_offline(connected=True)
 
-file = '/home/massock/Images/screenshot-looka.com-2020.06.27-13_47_43.png'
+file = 'screenshot-looka.com-2020.06.27-13_47_43.png'
 image = Image.open(file)
 img= st.sidebar.image(image, use_column_width=True)
 
