@@ -80,7 +80,7 @@ For more information click [here](https://acleddata.com/).
 st.markdown(text, unsafe_allow_html=True)
 
 #change path 
-conflict = pd.read_excel('/home/massock/Documents/Web-App-python/Streamlit/web-cmr-conflict-data/data/conflict_data_cmr.xlsx')
+conflict = pd.read_excel('conflict_data_cmr.xlsx')
 
 if st.checkbox('show/hide data', key=0):
 
