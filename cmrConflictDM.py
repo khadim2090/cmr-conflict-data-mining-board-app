@@ -829,7 +829,7 @@ if st.sidebar.checkbox("Modelling and prediction"):
 				""")
 
 
-		file = open('/home/massock/Documents/Web App python/save_model/cmrConflictTextClassifier.pkl', 'rb')
+		file = open('cmrConflictTextClassifier.pkl', 'rb')
 		classifier = pickle.load(file)# classifier
 
 		note = []
@@ -1083,7 +1083,7 @@ if st.sidebar.checkbox("Modelling and prediction"):
 				variable = st.multiselect('Select two names (vx_long, vx_fatal):', sorted(list(set(data_vif.columns)-set(['Adamaoua_fatal', 'Est_fatal',
 								 'Middle Africa_fatal', 'Ouest_fatal']))))
 
-				file = open('/home/massock/Documents/Web App python/save_model/cmrConflictRegression.pkl', 'rb')
+				file = open('cmrConflictRegression.pkl', 'rb')
 				kneig = pickle.load(file)
 				
 
